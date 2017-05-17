@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two);
+
+#background{
+  background-color: #ffffff;
+}
+
+/* ============================================================
+  NAVIGATION BAR
+============================================================ */
+
+#name{
+  float:left;
+  top: 0;
+  position: fixed;
+  padding: 10px;
+}
+
+#firstName{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 300%;
+  font-weight: 100;
+
+}
+
+#firstName:hover{
+  color: #49e1e1;
+}
+
+
+#lastName{
+  font-family: 'Roboto', sans-serif;
+  color: #49e1e1;
+  font-size: 300%;
+  display: inline;
+  position: relative;
+}
+
+#lastName:hover{
+  colour:black;
+}
+
+#text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 11px;
+  position: relative;
+}
+
+
+/*div{
+  padding-top: 56.25%; /* 16:9 Aspect Ratio
+}*/
+
+nav.navBar{
+  overflow: hidden;
+  background-color: white;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+ul.navLinks{
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+li.links{
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 10px 17px;
+
+}
+
+li a:link {
+  color: black;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+li a:focus {
+text-decoration: none;
+color: #49e1e1;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #49e1e1;
+}
+
+li a:active {
+  text-decoration: none;
+  color: #49e1e1;
+}
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 100%;
+  height: 300px;
+  margin: 0 auto;
+
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+/*section.module:last-child {
+  margin-bottom: 0;
+}*/
+section.module h1 {
+  font: 100px'Lobster Two';
+  text-align: center;
+}
+section.module p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+  line-height: 200%;
+
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  overflow: hidden;
+  height: 600px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+}
+/*section.module.parallax h1 {
+}*/
+
+section.module.parallax-1 {
+  background-image: url("sakura.png");
+}
+section.module.parallax-2 {
+  background-image: url("weather.png");
+}
+section.module.parallax-3 {
+  background-image: url("polonez_car.png");
+}
+section.module.parallax-4 {
+  background-image: url("congruent_pentagon.png");
+}
+
+#contactContent{
+  height: 500px;
+}
+
+
+/* ============================================================
+  Anchor links
+============================================================ */
+.anchor{
+  display: block;
+  visibility: hidden;
+  height:100px;
+  margin-top:-100px;
+}
+
+/* ============================================================
+  Slideshow
+============================================================ */
+
+/********** SLIDER **********/
+.slider {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: -30px;
+  /*margin: 0px auto 30px auto;}*/
+}
+
+.slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 400px;
+  }
+
+.slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+.slide {
+    width: 500%;
+    height: 500%;
+    display: none;
+    position: absolute;
+  }
+
+.slide:first-child {
+    display: block;
+  }
+
+
+/********** BUTTONS **********/
+.slide-buttons {
+  text-align: center;}
+
+.slide-btn {
+  border: none;
+  background: none;
+  color: #000;
+  font-size: 200%;
+  line-height: 0.5em;}
+
+.slide-btn.active, .slide-btn:hover {
+  color: #ed8e6c;
+  cursor: pointer;
+}
+
+/* ============================================================
+About
+============================================================ */
+
+#gr8rating{
+  font-size: 200%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  display: table;
+  margin: auto;
+}
+
+#pls{
+  font-size: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* ============================================================
+    Experience
+============================================================ */
+
+table{
+    width: 100%;
+    align-content: center;
+    /*border: 1px solid black;*/
+    table-layout: fixed;
+    align-self: center;
+  }
+
+tr, td{
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    line-height: 200%;
+    width: 100%;
+}
+
+td.projectDesc{
+  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+#logos{
+  max-height: 80%;
+  max-width: 80%;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+/* ============================================================
+  Contact form
+============================================================ */
+
+#form{
+  width:50%;
+  margin: 0 30%;
+  display: table;
+  align-content: center;
+}
+
+input{
+  display: inline;
+  margin: 10px;
+}
+
+#textBox{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-right: 11px;
+  position: relative;
+}
+
+
+#backTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  margin: 10px;
+
+}
+
+#contactMessage{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#submit{
+  background-color: #66e5e5;
+  border: 0;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+  padding: 5px 40px;
+  position: relative;
+  left:30%;
+  bottom: 10px;
+  margin: 10px;
+}
+
+#socialMedia{
+	position: absolute;
+  right: 15%;
+
+}
+/*
+#centre{
+	font: 20px 'Open Sans', sans-serif;
+	text-align: center;
+	line-height: 30px;
+}*/

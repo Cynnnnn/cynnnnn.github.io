@@ -1,0 +1,13 @@
+Parallax:
+http://callmenick.com/post/advanced-parallax-scrolling-effect
+
+
+Background tiles:https://www.toptal.com/designers/subtlepatterns/
+Scrolling: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
+
+HTML/CSS/JS logo: https://www.planet-source-code.com/vb/default.asp?lngWId=14
+java logo: https://en.wikipedia.org/wiki/Java_(programming_language)
+python: https://www.python.org/
+adobe logos:https://worldvectorlogo.com/logo/premiere-cc
+atom logo: https://discuss.atom.io/t/new-atom-logo-and-icon/8704/3
+eclipse: https://eclipse.org/artwork/
